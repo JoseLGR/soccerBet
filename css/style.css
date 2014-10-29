@@ -1,0 +1,28 @@
+
+@font-face {
+  font-family: 'bebas';
+    font-style: bold;
+  src:url('font/BebasNeueBold.otf');
+}
+
+
+body {
+    padding-top: 70px; 
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.liga{
+   color: rgba(46, 78, 162, 1);
+    
+}
