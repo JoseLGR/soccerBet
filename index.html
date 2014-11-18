@@ -1,45 +1,82 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
+<html lang="es" ng-app="apuesta">
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-   
-      <title>Acceder</title>
-      
+
+    <title>Soccer Bet</title>
+
+    
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/login.css" rel="stylesheet">
-    <script src="js/warning.js"></script>
-    <script src="js/workaround.js"></script>
-  </head>
 
-  <body>
+   
+    <link href="css/inicio.css" rel="stylesheet">
 
-    <div class="container">
-        <div class="logo"><img src="img/logo-login.png" alt=""></div>
+  
+
+</head>
+
+<body>
+
+  
+     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                <div class="navbar-header"></div>
+            </div>
         
-        <form class="form-signin" role="form">
-        <h2 class="form-signin-heading">Acceder</h2>
-        <input type="email" class="form-control" placeholder="Email" required autofocus>
-        <input type="password" class="form-control" placeholder="Contraseña" required>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Recordarme
-          </label>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#/inicio"><img src="img/home-ico.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#/partidos"><img src="img/partidos-ico.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="partials/login.html"><img src="img/cerrar-ico.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+         
         </div>
-         <a href="inicio.html" class="myButton">Acceder</a>
-      </form>
+   
+    </nav>
+
+
+    <div class="container2" ng-view>
+
+        
 
     </div>
 
-
+ 
+ 
     <script src="js/jquery-1.11.0.js"></script>
     <script src="js/angular.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="//www.parsecdn.com/js/parse-1.3.0.min.js"></script>
     <script src="js/miParse.js"></script>
+    <script src="https://code.angularjs.org/1.3.0-beta.10/angular-route.js"></script>
+    
+   <!-- incluir controladores y modulos adicionales -->
+    <script src="js/baseApp.js"></script>
+    <script src="controllers/partidoController.js"></script>
 
-  </body>
+ 
+</body>
+
 </html>
