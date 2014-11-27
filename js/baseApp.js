@@ -1,4 +1,4 @@
-Parse.initialize("PRBxGd1sUZedOOFrCbUtQv1CKnhtSoTim38cKLqv", "L0ZeWfQ6GZkwXTGZOlmaErAP60u4uuxHKnOGskc0");
+
 
 // esto arranca la aplicacion
 
@@ -9,10 +9,34 @@ apuesta.config(['$routeProvider',
         $routeProvider
             .when('/partidos', {
                 templateUrl: 'partials/partidos.html',
-                controller: 'partidoController'
+               // controller: 'partidoController'
             })
-            .when('/partials/inicio', {
+            .when('/', {
                 templateUrl: 'partials/inicio.html',
+            })
+            .when('/acvjuv.html', {
+                templateUrl: 'partials/acvjuv.html',
+            })
+            .when('/bavbo.html', {
+                templateUrl: 'partials/bavbo.html',
+            })
+            .when('/ccvudc.html', {
+                templateUrl: 'partials/ccvudc.html',
+            })
+            .when('/chvliv.html', {
+                templateUrl: 'partials/chvliv.html',
+            })
+            .when('/grvin.html', {
+                templateUrl: 'partials/grvin.html',
+            })
+            .when('/pavol.html', {
+                templateUrl: 'partials/pavol.html',
+            })
+            .when('/rivbo.html', {
+                templateUrl: 'partials/rivbo.html',
+            })
+            .when('/rmvba.html', {
+                templateUrl: 'partials/rmvba.html',
             })
             .otherwise({
                 redirectTo: '/'

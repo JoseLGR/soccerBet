@@ -1,4 +1,6 @@
+
 Parse.initialize("PRBxGd1sUZedOOFrCbUtQv1CKnhtSoTim38cKLqv", "L0ZeWfQ6GZkwXTGZOlmaErAP60u4uuxHKnOGskc0");
+
 
 function mostrarElementos() {
     var listaPartidos = Parse.Object.extend("partidos");
@@ -38,7 +40,7 @@ function mostrarElementos() {
                 contenido += '<h4>' + fecha + '</h4>';
                 contenido += '<h4>' + hora + '</h4>';
                 contenido += '<p>';
-                contenido += '<a href="' + link + '" class="btn btn-primary">Apostar!</a>';
+                contenido += '<a href="index.html#/' + link + '" class="btn btn-primary">Apostar!</a>';
                 contenido += '</p>';
                 contenido += '</div>';
                 contenido += '</div>';
@@ -51,7 +53,6 @@ function mostrarElementos() {
         error: function () {}
 
     })
-
 }
 
 

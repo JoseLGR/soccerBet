@@ -1,11 +1,7 @@
 apuesta.controller('partidoController', function ($scope) {
-    $scope.saludo = "hola"
+   // $scope.saludo = "hola"
     
-    $scope.arregloFalsoNoUsar = ["uno" , "dos"]
-
-
-
-
+    //$scope.arregloFalsoNoUsar = ["uno" , "dos"]
 
     $scope.obtenerPartidos = function() {
         var listaPartidos = Parse.Object.extend("partidos");

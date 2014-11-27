@@ -66,3 +66,12 @@ body {
 	position:relative;
 	top:1px;
 }
+.siCuenta{
+    text-decoration: none;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    
+    
+}
