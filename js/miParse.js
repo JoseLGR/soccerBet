@@ -48,7 +48,9 @@ function mostrarElementos() {
 
 
                 $("#contenedorPrincipal").append(contenido);
+                          
             }
+            $scope.$apply()
         },
         error: function () {}
 
